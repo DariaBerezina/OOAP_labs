@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SpaceBattle.Lib")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SpaceBattle.Lib.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512853aaf3adaffb2455bac8e530d2f926076cf9")]
-[assembly: System.Reflection.AssemblyProductAttribute("SpaceBattle.Lib")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SpaceBattle.Lib")]
+[assembly: System.Reflection.AssemblyProductAttribute("SpaceBattle.Lib.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SpaceBattle.Lib.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
