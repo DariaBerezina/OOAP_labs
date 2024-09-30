@@ -1,5 +1,3 @@
-using System.Numerics;
-
 namespace SpaceBattle.Lib;
 public class MoveCommand : ICommand
 {
@@ -11,6 +9,6 @@ public class MoveCommand : ICommand
 
     public void Execute()
     {
-        _movable.Position = Vector.Add(_movable.Position, _movable.Velocity);
+        _movable.Position += _movable.Velocity;
     }
 }
