@@ -3,7 +3,7 @@ using System.Numerics;
 namespace SpaceBattle.Lib;
 public class MoveCommand : ICommand
 {
-    private IMovable _movable;
+    private readonly IMovable _movable;
     public MoveCommand(IMovable movable)
     {
         this._movable = movable;
