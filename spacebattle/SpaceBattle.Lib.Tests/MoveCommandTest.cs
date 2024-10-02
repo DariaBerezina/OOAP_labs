@@ -17,4 +17,14 @@ public class MoveCommandTest
         movable.VerifySet(obj => obj.Position = new Vector(5, 8), Times.Once);
         movable.VerifyAll();
     }
+    [Fact]
+    public void TestTryExecute_GetObjectPosition_Fail()
+    {
+        var movable = new Mock<IMovable>();
+        movable.Setup(obj => obj.Position).Callback(() => throw new Exception());
+        movable.SetupGet(obj => obj.Velocity).Returns(new Vector(-7, 3)).Verifiable();
+        var move_command_object = new MoveCommand(movable.Object);
+
+        Assert.Throws<Exception>(() => move_command_object.Execute());
+    }
 }
