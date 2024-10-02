@@ -1,13 +1,7 @@
 public class Vector
 {
     private int[] _position;
-
-    public int this[int i]
-    {
-        get { return _position[i]; }
-        set { _position[i] = value; }
-    }
-    public Vector(int[] coordinates)
+    public Vector(params int[] coordinates)
     {
         _position = coordinates;
     }
@@ -18,7 +12,7 @@ public class Vector
     public static Vector operator +(Vector x, Vector y)
     {
         Vector addition_result = new Vector(new int[x.Length()]);
-        addition_result._position = x._position.Select((value, index) => value + y[index]).ToArray();
+        addition_result._position = x._position.Select((value, index) => value + y._position[index]).ToArray();
         return addition_result;
     }
     public override bool Equals(object? obj)
