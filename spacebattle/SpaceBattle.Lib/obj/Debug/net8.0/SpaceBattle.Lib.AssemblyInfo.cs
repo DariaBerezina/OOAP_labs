@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceBattle.Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a66a148217ea57364277ec76b7d5b53847fdadb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3df2cf890f826bafbf511f0b462a36cbb12fd7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceBattle.Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceBattle.Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

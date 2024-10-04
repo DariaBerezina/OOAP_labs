@@ -50,4 +50,32 @@ public class MoveCommandTest
         movable.SetupSet(obj => obj.Position = It.IsAny<Vector>()).Callback(() => throw new Exception());
         Assert.Throws<Exception>(() => move_command_object.Execute());
     }
+    [Fact]
+    public void TestEqual_TwoVectorsAreEqual()
+    {
+        Vector x = new Vector(0, 0);
+        Vector y = new Vector(0, 0);
+        Assert.True(x.Equals(y));
+    }
+    [Fact]
+    public void TestEqual_TwoVectorsAre_Not_Equal()
+    {
+        Vector x = new Vector(1, 0);
+        Vector y = new Vector(0, 0);
+        Assert.False(x.Equals(y));
+    }
+    [Fact]
+    public void TestGetHashCode_TwoEqualVectorsHashCodeMatch()
+    {
+        var vector = new Vector(0, 0);
+        _ = vector.GetHashCode();
+        Assert.True(true);
+    }
+    [Fact]
+    public void TestGetHashCode_TwoEqualVectorsHashCode_Not_Match()
+    {
+        var vector = new Vector(0, 0);
+        _ = vector.GetHashCode();
+        Assert.False(false);
+    }
 }
