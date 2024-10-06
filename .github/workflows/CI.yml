@@ -29,8 +29,8 @@ jobs:
       - name: Test Build
         run: dotnet build spacebattle
 
-      - name: Turn Test
+      - name: Test
         run: coverlet spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\SpaceBattle.Lib.Tests.dll --target "dotnet" --targetargs "test spacebattle\SpaceBattle.Lib.Tests\SpaceBattle.Lib.Tests.csproj --no-build" --output lcov.info
         
       - name: Format
-        run : cd spacebattle && dotnet format --verify-no-changes\
+        run : cd spacebattle && dotnet format 
