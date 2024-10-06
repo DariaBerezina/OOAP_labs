@@ -20,6 +20,9 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
+      - name: Install
+        run: dotnet tool install --global coverlet.console --version 6.0.2
+
       - name: Restore dependencies
         run: dotnet restore spacebattle
 
