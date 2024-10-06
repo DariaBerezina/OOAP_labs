@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="0.5" version="1.9" timestamp="1728150049" lines-covered="26" lines-valid="26" branches-covered="2" branches-valid="4">
+  <sources>
+    <source>S:\OOAP_labs\spacebattle\SpaceBattle.Lib\</source>
+  </sources>
+  <packages>
+    <package name="SpaceBattle.Lib" line-rate="1" branch-rate="0.5" complexity="9">
+      <classes>
+        <class name="Vector" filename="Vector.cs" line-rate="1" branch-rate="0.5" complexity="7">
+          <methods>
+            <method name="op_Addition" signature="(Vector,Vector)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="9" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="50%" />
+                    <condition number="10" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="4" branch="False" />
+                <line number="23" hits="8" branch="False" />
+                <line number="24" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32[])" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="18" branch="False" />
+                <line number="6" hits="18" branch="False" />
+                <line number="7" hits="18" branch="False" />
+                <line number="8" hits="18" branch="False" />
+                <line number="9" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="9" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="2" type="jump" coverage="50%" />
+                <condition number="10" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="19" hits="3" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="4" branch="False" />
+            <line number="23" hits="8" branch="False" />
+            <line number="24" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="5" hits="18" branch="False" />
+            <line number="6" hits="18" branch="False" />
+            <line number="7" hits="18" branch="False" />
+            <line number="8" hits="18" branch="False" />
+            <line number="9" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="SpaceBattle.Lib.MoveCommand" filename="MoveCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="5" branch="False" />
+                <line number="12" hits="5" branch="False" />
+                <line number="13" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(SpaceBattle.Lib.IMovable)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="4" branch="False" />
+                <line number="6" hits="4" branch="False" />
+                <line number="7" hits="4" branch="False" />
+                <line number="8" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="5" branch="False" />
+            <line number="12" hits="5" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="5" hits="4" branch="False" />
+            <line number="6" hits="4" branch="False" />
+            <line number="7" hits="4" branch="False" />
+            <line number="8" hits="4" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

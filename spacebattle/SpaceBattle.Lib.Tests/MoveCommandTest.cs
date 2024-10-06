@@ -67,15 +67,17 @@ public class MoveCommandTest
     [Fact]
     public void TestGetHashCode_TwoEqualVectorsHashCodeMatch()
     {
-        var vector = new Vector(0, 0);
-        _ = vector.GetHashCode();
-        Assert.True(true);
+        var x = new Vector(0, 0);
+        var y = new Vector(0, 0);
+
+        Assert.True(x.GetHashCode() == y.GetHashCode());
     }
     [Fact]
     public void TestGetHashCode_TwoEqualVectorsHashCode_Not_Match()
     {
-        var vector = new Vector(0, 0);
-        _ = vector.GetHashCode();
-        Assert.False(false);
+        var x = new Vector(0, 0);
+        var y = new Vector(1, 0);
+
+        Assert.False(x.GetHashCode() == y.GetHashCode());
     }
 }

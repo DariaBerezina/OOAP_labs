@@ -19,6 +19,10 @@ public class Vector
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(_position);
+        int hash = 17;
+        hash = _position.Aggregate((hash, value) => hash * 23 + value.GetHashCode());
+        hash = hash * 23 + _positionLength.GetHashCode();
+
+        return hash;
     }
 }

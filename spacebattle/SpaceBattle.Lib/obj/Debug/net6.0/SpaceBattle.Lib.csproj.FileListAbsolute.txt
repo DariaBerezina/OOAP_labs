@@ -1,0 +1,12 @@
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\bin\Debug\net6.0\SpaceBattle.Lib.deps.json
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\bin\Debug\net6.0\SpaceBattle.Lib.dll
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\bin\Debug\net6.0\SpaceBattle.Lib.pdb
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.GeneratedMSBuildEditorConfig.editorconfig
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.AssemblyInfoInputs.cache
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.AssemblyInfo.cs
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.csproj.CoreCompileInputs.cache
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.sourcelink.json
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.dll
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\refint\SpaceBattle.Lib.dll
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.pdb
+S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\ref\SpaceBattle.Lib.dll
