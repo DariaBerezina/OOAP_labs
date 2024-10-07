@@ -53,15 +53,15 @@ public class MoveCommandTest
     [Fact]
     public void TestEqual_TwoVectorsAreEqual()
     {
-        Vector x = new Vector(0, 0);
-        Vector y = new Vector(0, 0);
+        var x = new Vector(0, 0);
+        var y = new Vector(0, 0);
         Assert.True(x.Equals(y));
     }
     [Fact]
     public void TestEqual_TwoVectorsAre_Not_Equal()
     {
-        Vector x = new Vector(1, 0);
-        Vector y = new Vector(0, 0);
+        var x = new Vector(1, 0);
+        var y = new Vector(0, 0);
         Assert.False(x.Equals(y));
     }
     [Fact]

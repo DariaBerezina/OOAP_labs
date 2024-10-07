@@ -93,7 +93,6 @@ S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\zh-Hant\Microsof
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\SpaceBattle.Lib.dll
-S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\SpaceBattle.Lib.pdb
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\SpaceBattle.Lib.Tests.csproj.AssemblyReference.cache
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\SpaceBattle.Lib.Tests.GeneratedMSBuildEditorConfig.editorconfig
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\SpaceBattle.Lib.Tests.AssemblyInfoInputs.cache
@@ -109,3 +108,4 @@ S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\ref\SpaceBattle.
 s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.Core.dll
 s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.IoC.dll
 s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.Ioc.ScopeBasedIoCImplementation.dll
+s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\SpaceBattle.Lib.pdb

@@ -75,6 +75,4 @@ public class StartMoveCommandTest
 
         Assert.Throws<Exception>(startCommand.Execute);
     }
-
-
 }
