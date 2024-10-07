@@ -41,5 +41,22 @@ public class StartMoveCommandTest
 
         Assert.Equal(targetProperties["key"], value);
     }
+    [Fact]
+    public void TestStartMoveCommand_PropertiesAddToQueue_Successfuly()
+    {
+        var uobject = new Mock<IUObject>();
+        var startable = new Mock<IMoveCommandStartable>();
+
+        startable.Setup(s => s.target).Returns(uobject.Object).Verifiable();
+        startable.Setup(s => s.properties).Returns(new Dictionary<string, object>() { { "Velocity", new Vector(1, 1) } }).Verifiable();
+
+        var startMoveCommand = new StartMoveCommand(startable.Object);
+
+        startMoveCommand.Execute();
+
+        startable.Verify(s => s.properties, Times.Once());
+        queue.Verify(q => q.Enqueue(It.IsAny<ICommand>()), Times.Once());
+    }
+
 
 }
