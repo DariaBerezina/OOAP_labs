@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj": {}
+    "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj": {}
   },
   "projects": {
-    "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj": {
+    "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
+        "projectUniqueName": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
         "projectName": "SpaceBattle.Lib.Tests",
-        "projectPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
+        "projectPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
         "packagesPath": "C:\\Users\\Daria\\.nuget\\packages\\",
-        "outputPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\obj\\",
+        "outputPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
-                "projectPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj"
+              "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
+                "projectPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj"
               }
             }
           }
@@ -110,14 +110,14 @@
         }
       }
     },
-    "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
+    "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
+        "projectUniqueName": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
         "projectName": "SpaceBattle.Lib",
-        "projectPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
+        "projectPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
         "packagesPath": "C:\\Users\\Daria\\.nuget\\packages\\",
-        "outputPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\obj\\",
+        "outputPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

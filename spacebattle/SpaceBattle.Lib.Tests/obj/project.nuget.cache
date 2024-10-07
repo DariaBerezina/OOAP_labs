@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wIClIH55GdU=",
+  "dgSpecHash": "4HQ4Lm9m2G8=",
   "success": true,
-  "projectFilePath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
+  "projectFilePath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daria\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
