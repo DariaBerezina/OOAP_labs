@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bpQ7NUaKJ8k=",
+  "dgSpecHash": "ju+ygulf9aY=",
   "success": true,
-  "projectFilePath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
+  "projectFilePath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daria\\.nuget\\packages\\hwdtech.core\\1.0.0\\hwdtech.core.1.0.0.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\hwdtech.ioc\\1.0.0\\hwdtech.ioc.1.0.0.nupkg.sha512",
