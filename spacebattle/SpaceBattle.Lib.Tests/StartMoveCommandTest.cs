@@ -31,6 +31,7 @@ public class StartMoveCommandTest
     {
         var target = new Mock<IUObject>();
         var targetProperties = new Dictionary<string, object>();
+
         target.Setup(t => t.SetProperty(It.IsAny<string>(), It.IsAny<object>())).Callback<string, object>(targetProperties.Add).Verifiable();
 
         target.Object.SetProperty("key", "value");
@@ -44,18 +45,35 @@ public class StartMoveCommandTest
     [Fact]
     public void TestStartMoveCommand_PropertiesAddToQueue_Successfuly()
     {
-        var uobject = new Mock<IUObject>();
-        var startable = new Mock<IMoveCommandStartable>();
+        var target = new Mock<IUObject>();
+        var iMoveCmdStartable = new Mock<IMoveCommandStartable>();
 
-        startable.Setup(s => s.target).Returns(uobject.Object).Verifiable();
-        startable.Setup(s => s.properties).Returns(new Dictionary<string, object>() { { "Velocity", new Vector(1, 1) } }).Verifiable();
+        iMoveCmdStartable.Setup(s => s.target).Returns(target.Object).Verifiable();
+        iMoveCmdStartable.Setup(s => s.properties).Returns(new Dictionary<string, object>() { { "Velocity", new Vector(1, 1) } }).Verifiable();
 
-        var startMoveCommand = new StartMoveCommand(startable.Object);
+        var startMoveCommand = new StartMoveCommand(iMoveCmdStartable.Object);
 
         startMoveCommand.Execute();
 
-        startable.Verify(s => s.properties, Times.Once());
+        iMoveCmdStartable.Verify(s => s.properties, Times.Once());
         queue.Verify(q => q.Enqueue(It.IsAny<ICommand>()), Times.Once());
+    }
+    [Fact]
+    public void TestStartMoveCommand_ReadTargetProperties_Fail()
+    {
+        var target = new Mock<IUObject>();
+        var iMoveCmdStartable = new Mock<IMoveCommandStartable>();
+        var targetProperties = new Dictionary<string, object>();
+
+        var properties = new Dictionary<string, object> { { "Position", "Vector" } };
+
+        iMoveCmdStartable.SetupGet(s => s.properties).Callback(() => throw new Exception());
+        iMoveCmdStartable.SetupGet(s => s.target).Callback(() => throw new Exception());
+        target.Setup(o => o.SetProperty(It.IsAny<string>(), It.IsAny<object>())).Callback(() => throw new Exception()).Verifiable();
+
+        var startCommand = new StartMoveCommand(iMoveCmdStartable.Object);
+
+        Assert.Throws<Exception>(startCommand.Execute);
     }
 
 
