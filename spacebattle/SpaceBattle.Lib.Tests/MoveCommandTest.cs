@@ -80,4 +80,19 @@ public class MoveCommandTest
 
         Assert.False(x.GetHashCode() == y.GetHashCode());
     }
+    [Fact]
+    public void TC()
+    {
+        var x = new Vector(0, 0);
+        int[] y = { 0, 0 };
+
+        Assert.False(x.Equals(y));
+    }
+    [Fact]
+    public void TestEqual_Vectors_VS_Null_Fail()
+    {
+        var x = new Vector(0, 0);
+
+        Assert.False(x.Equals(null));
+    }
 }
