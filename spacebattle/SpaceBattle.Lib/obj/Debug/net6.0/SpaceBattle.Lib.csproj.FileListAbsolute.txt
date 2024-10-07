@@ -10,3 +10,4 @@ S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.dll
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\refint\SpaceBattle.Lib.dll
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.pdb
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\ref\SpaceBattle.Lib.dll
+s:\OOAP_labs\spacebattle\SpaceBattle.Lib\obj\Debug\net6.0\SpaceBattle.Lib.csproj.AssemblyReference.cache

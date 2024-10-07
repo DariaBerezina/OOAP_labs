@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "DHDgdqOXAJQ=",
+  "dgSpecHash": "wIClIH55GdU=",
   "success": true,
   "projectFilePath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib.Tests\\SpaceBattle.Lib.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daria\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\coverlet.msbuild\\6.0.2\\coverlet.msbuild.6.0.2.nupkg.sha512",
+    "C:\\Users\\Daria\\.nuget\\packages\\hwdtech.core\\1.0.0\\hwdtech.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\Daria\\.nuget\\packages\\hwdtech.ioc\\1.0.0\\hwdtech.ioc.1.0.0.nupkg.sha512",
+    "C:\\Users\\Daria\\.nuget\\packages\\hwdtech.ioc.scopebasediocimplementation\\1.0.0\\hwdtech.ioc.scopebasediocimplementation.1.0.0.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\Daria\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

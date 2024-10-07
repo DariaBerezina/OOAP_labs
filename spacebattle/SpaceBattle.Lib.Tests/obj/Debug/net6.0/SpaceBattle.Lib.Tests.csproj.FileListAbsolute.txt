@@ -106,3 +106,6 @@ S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\refint\SpaceBatt
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\SpaceBattle.Lib.Tests.pdb
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\SpaceBattle.Lib.Tests.genruntimeconfig.cache
 S:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\obj\Debug\net6.0\ref\SpaceBattle.Lib.Tests.dll
+s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.Core.dll
+s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.IoC.dll
+s:\OOAP_labs\spacebattle\SpaceBattle.Lib.Tests\bin\Debug\net6.0\Hwdtech.Ioc.ScopeBasedIoCImplementation.dll

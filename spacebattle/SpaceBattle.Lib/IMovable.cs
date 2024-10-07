@@ -1,5 +1,3 @@
-using System.Numerics;
-
 namespace SpaceBattle.Lib;
 
 public interface IMovable

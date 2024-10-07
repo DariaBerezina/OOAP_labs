@@ -2,6 +2,6 @@ namespace SpaceBattle.Lib;
 
 public interface IMoveCommandStartable
 {
-    IUObject Target { get; }
-    Dictionary<string, object> InitialValues { get; }
+    IUObject target { get; }
+    Dictionary<string, object> properties { get; }
 }

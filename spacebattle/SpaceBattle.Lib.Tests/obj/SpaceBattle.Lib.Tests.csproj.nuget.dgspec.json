@@ -53,6 +53,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Hwdtech.IoC": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Hwdtech.Ioc.ScopeBasedIoCImplementation": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
@@ -146,6 +154,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Hwdtech.IoC": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Hwdtech.Ioc.ScopeBasedIoCImplementation": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

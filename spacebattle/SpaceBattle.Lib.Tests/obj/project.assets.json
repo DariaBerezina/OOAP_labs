@@ -31,6 +31,41 @@
           "build/coverlet.msbuild.targets": {}
         }
       },
+      "Hwdtech.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Hwdtech.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Hwdtech.Core.dll": {}
+        }
+      },
+      "Hwdtech.IoC/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Hwdtech.Core": "1.0.0",
+          "System.Threading": "4.3.0"
+        },
+        "compile": {
+          "lib/net6.0/Hwdtech.IoC.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Hwdtech.IoC.dll": {}
+        }
+      },
+      "Hwdtech.Ioc.ScopeBasedIoCImplementation/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Hwdtech.Core": "1.0.0",
+          "Hwdtech.IoC": "1.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Hwdtech.Ioc.ScopeBasedIoCImplementation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Hwdtech.Ioc.ScopeBasedIoCImplementation.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.8.0": {
         "type": "package",
         "compile": {
@@ -1773,6 +1808,10 @@
       "SpaceBattle.Lib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Hwdtech.IoC": "1.0.0",
+          "Hwdtech.Ioc.ScopeBasedIoCImplementation": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SpaceBattle.Lib.dll": {}
         },
@@ -1916,6 +1955,42 @@
         "tasks/netstandard2.0/coverlet.msbuild.tasks.deps.json",
         "tasks/netstandard2.0/coverlet.msbuild.tasks.dll",
         "tasks/netstandard2.0/coverlet.msbuild.tasks.pdb"
+      ]
+    },
+    "Hwdtech.Core/1.0.0": {
+      "sha512": "IZCpao5rQiJJj8lX9ttukIlljkC/qoOw7+qJ0RX6BRaLoVAxGSFH1m1Jbmg0jh2SrtffxR62BiAYn9nFjXFVMQ==",
+      "type": "package",
+      "path": "hwdtech.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hwdtech.core.1.0.0.nupkg.sha512",
+        "hwdtech.core.nuspec",
+        "lib/net6.0/Hwdtech.Core.dll"
+      ]
+    },
+    "Hwdtech.IoC/1.0.0": {
+      "sha512": "k8cQbUyJNYSMeDJMU7hA+eUCD4ApsxxeDOjm9K7p3nAh6PJpjuAsXwdTrJZPVKep7PA9kJyku7wlb6vgRBt/gQ==",
+      "type": "package",
+      "path": "hwdtech.ioc/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hwdtech.ioc.1.0.0.nupkg.sha512",
+        "hwdtech.ioc.nuspec",
+        "lib/net6.0/Hwdtech.IoC.dll"
+      ]
+    },
+    "Hwdtech.Ioc.ScopeBasedIoCImplementation/1.0.0": {
+      "sha512": "KHlvKmR6hPfRUbGnIgEfEMLKxQBUY07dGCVPoMHfRpb+GdjBLo6p1Q2N4pnINOCo4fLutThKSCtHYxtcVhI5YQ==",
+      "type": "package",
+      "path": "hwdtech.ioc.scopebasediocimplementation/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hwdtech.ioc.scopebasediocimplementation.1.0.0.nupkg.sha512",
+        "hwdtech.ioc.scopebasediocimplementation.nuspec",
+        "lib/net6.0/Hwdtech.Ioc.ScopeBasedIoCImplementation.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.8.0": {
@@ -5707,6 +5782,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Hwdtech.IoC >= 1.0.0",
+      "Hwdtech.Ioc.ScopeBasedIoCImplementation >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.20.72",
       "SpaceBattle.Lib >= 1.0.0",
@@ -5769,6 +5846,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Hwdtech.IoC": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Hwdtech.Ioc.ScopeBasedIoCImplementation": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
