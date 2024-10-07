@@ -1,7 +1,7 @@
 public class Vector
 {
     private int[] _position;
-    private int _positionLength;
+    private readonly int _positionLength;
     public Vector(params int[] coordinates)
     {
         _position = coordinates;
@@ -9,17 +9,17 @@ public class Vector
     }
     public static Vector operator +(Vector x, Vector y)
     {
-        Vector addition_result = new Vector(new int[x._positionLength]);
+        var addition_result = new Vector(new int[x._positionLength]);
         addition_result._position = x._position.Select((value, index) => value + y._position[index]).ToArray();
         return addition_result;
     }
     public override bool Equals(object? obj)
     {
-        return obj != null && obj is Vector && _position.SequenceEqual(((Vector)obj)._position);
+        return obj != null && obj is Vector vector && _position.SequenceEqual(vector._position);
     }
     public override int GetHashCode()
     {
-        int hash = 17;
+        var hash = 17;
         hash = _position.Aggregate((hash, value) => hash * 23 + value.GetHashCode());
         hash = hash * 23 + _positionLength.GetHashCode();
 
