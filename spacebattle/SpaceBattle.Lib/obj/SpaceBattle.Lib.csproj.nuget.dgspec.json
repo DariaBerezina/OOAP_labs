@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {}
+    "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {}
   },
   "projects": {
-    "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
+    "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
+        "projectUniqueName": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
         "projectName": "SpaceBattle.Lib",
-        "projectPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
+        "projectPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\SpaceBattle.Lib.csproj",
         "packagesPath": "C:\\Users\\Daria\\.nuget\\packages\\",
-        "outputPath": "S:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\obj\\",
+        "outputPath": "s:\\OOAP_labs\\spacebattle\\SpaceBattle.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
